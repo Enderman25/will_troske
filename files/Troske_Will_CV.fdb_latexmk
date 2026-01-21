@@ -1,7 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1769020143.1386 "c:/Users/Troske/OneDrive/UC Davis/website/will-troske.github.io/files/cv.tex" "cv.pdf" "cv" 1769020145.29171 0
+["pdflatex"] 1769020688.80366 "c:/Users/Troske/OneDrive/UC Davis/website/will-troske.github.io/files/Troske_Will_CV.tex" "Troske_Will_CV.pdf" "Troske_Will_CV" 1769020690.73901 0
   "CV-preamble.tex" 1769019084 2876 a673ccbdb7ddad1b90503ebcb33f0bed ""
-  "c:/Users/Troske/OneDrive/UC Davis/website/will-troske.github.io/files/cv.tex" 1769020134 11015 57f9f20c2118efebce72b8bef1756495 ""
+  "Troske_Will_CV.aux" 1769020690 1555 0b8e3f804121cb95754f22dac4eb8cb2 "pdflatex"
+  "Troske_Will_CV.out" 1769020690 1682 fa3f1e1d9cc0f7eab17b5369c5378ef5 "pdflatex"
+  "Troske_Will_CV.tex" 1769020134 11015 57f9f20c2118efebce72b8bef1756495 ""
+  "c:/Users/Troske/OneDrive/UC Davis/website/will-troske.github.io/files/Troske_Will_CV.tex" 1769020134 11015 57f9f20c2118efebce72b8bef1756495 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1712093999 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1712165507 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1712159416 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -81,12 +84,9 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1721886146 5279837 355fb9de5cde04457702199078cd77a5 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1720647728 8239301 f3524604aebe979f46f4e7cd310c3c89 ""
   "c:/texlive/2024/texmf.cnf" 1712177154 713 e69b156964470283e0530f5060668171 ""
-  "cv.aux" 1769020145 1555 0b8e3f804121cb95754f22dac4eb8cb2 "pdflatex"
-  "cv.out" 1769020145 1682 fa3f1e1d9cc0f7eab17b5369c5378ef5 "pdflatex"
-  "cv.tex" 1769020134 11015 57f9f20c2118efebce72b8bef1756495 ""
   (generated)
-  "cv.aux"
-  "cv.log"
-  "cv.out"
-  "cv.pdf"
+  "Troske_Will_CV.aux"
+  "Troske_Will_CV.log"
+  "Troske_Will_CV.out"
+  "Troske_Will_CV.pdf"
   (rewritten before read)
