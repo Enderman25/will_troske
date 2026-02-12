@@ -2,13 +2,13 @@ name: Build CV
 
 on:
   push:
-    branches: [ under-repair ]
+    branches: [main, under_repair]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v2
@@ -25,7 +25,7 @@ jobs:
           git push
       
       - name: Upload PDF as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: CV
           path: files/Troske_Will_CV.pdf
