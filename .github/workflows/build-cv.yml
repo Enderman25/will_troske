@@ -2,7 +2,7 @@ name: Build CV
 
 on:
   push:
-    branches: [main, under-repair ]
+    branches: [main, under-repair]
 
 jobs:
   build:
