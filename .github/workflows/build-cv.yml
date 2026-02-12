@@ -25,7 +25,7 @@ jobs:
           git push
       
       - name: Upload PDF as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: CV
           path: files/Troske_Will_CV.pdf
