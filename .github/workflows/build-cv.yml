@@ -1,0 +1,31 @@
+name: Build CV
+
+on:
+  push:
+    branches: [main, under_repair]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: Troske_Will_CV.tex
+          working_directory: files
+      
+      - name: Commit PDF back to repository
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add files/Troske_Will_CV.pdf
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update compiled CV PDF"
+          git push
+      
+      - name: Upload PDF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CV
+          path: files/Troske_Will_CV.pdf
