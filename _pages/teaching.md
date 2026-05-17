@@ -22,3 +22,11 @@ title: "Teaching"
 
 <b> Course Description </b> Theory of individual consumer and market demand; theory of production and supply of agricultural products, with particular reference to the individual firm; price determination, and employment of resources under pure competition. 
 
+<b> Economics & Business Data Analytics (ECN 142) - Winter 2026</b>
+
+<b> Course Description </b> Introduction to economics and business data analytics. Statistical learning methods to analyze big data in economics and business data analysis. Statistical learning, linear regression, classification, resampling methods, and linear model selection and regularization.
+
+<b> Principles of Finance (ARE 171) - Spring 2026</b>
+
+<b> Course Description </b> Principles of corporate financial management. Time value of money, interest rates, principles of valuation, NPV, risk and return, and cost of capital.
+
