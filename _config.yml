@@ -26,7 +26,7 @@ author:
   avatar           : "Headshot.jpg"
   name             : "Will Troske"
   pronouns         : # example: "He/Him"  
-  bio              : "Environment and Trade Economist"
+  bio              : "Environment, Transportation, and Industrial Organization"
   location         : "Davis, CA"
   employer         : "University of California, Davis"
   uri              : # URL
@@ -221,6 +221,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  research:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
